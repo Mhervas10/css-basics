@@ -1,0 +1,212 @@
+/***
+
+RECURSOS
+
+
+RESET
+https://cdnjs.com/libraries/meyer-reset
+
+COLORS
+colorzilla
+
+
+grey    crema fosc 
+#fef9ff crema 
+#fef9ff crema clar 
+
+#a00013 Granate: 
+red     Granate clar
+
+grisos
+#ddd
+
+
+
+IL·LUSTRACIONS
+https://etc.usf.edu/clipart/
+
+https://www.oldbookillustrations.com/
+
+***/
+
+
+
+
+
+
+/***-------------- Estructura --------------***/
+
+header,
+nav,
+main,
+aside,
+footer {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding:10px 0;
+  text-align: center;
+  
+  
+}
+img{
+    width:450px;
+    mix-blend-mode: multiply;  
+}
+.divnav{
+    width:500px;
+    border:solid 1px grey; 
+    margin:40px auto;
+    padding:20px;
+    background-color: #f3efe8;
+    box-shadow: 0px 0px 2px 2px rgba(128, 128, 128, 0.479);
+}
+.divmain{
+    width:500px;
+    border:solid 1px grey; 
+    margin:40px auto;
+    padding:20px;
+    background-color: #f3efe8;
+    box-shadow: 0px 0px 2px 2px rgba(128, 128, 128, 0.479);  
+}
+.divaside{
+    width:500px;
+    border:solid 1px grey; 
+    margin:40px auto;
+    padding:20px;
+    background-color: #f3efe8;
+    box-shadow: 0px 0px 2px 2px rgba(128, 128, 128, 0.479);  
+}
+footer p{
+    width:500px;
+    border:solid 1px grey; 
+    margin:40px auto;
+    padding:20px;
+    background-color: #f3efe8;
+    box-shadow: 0px 0px 2px 2px rgba(128, 128, 128, 0.479);
+}
+
+/***-------------- Tipografia --------------***/
+.fraseitalic{
+    font-style: italic;
+    color:grey;
+    
+}
+.frasebold{
+    font-weight: bold;
+    
+    font-variant: small-caps;
+    font-size: 1.5rem;
+      
+}
+.frasebold,.fraseitalic,.head{
+    text-align: center;
+    line-height: 10px;
+}
+.frasefl::first-letter {
+    color: #99141b;
+    font-size: 4rem;
+    float:left;
+    margin:-10px 5px -10px 0px;
+}
+.frasefl, .frasejust{
+    text-align:justify;
+}
+.head{
+    color: #99141b;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+    
+}
+.fraseleft{
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+h1{
+    text-align: left;
+    font-size: 3.5rem;
+    margin:-5px auto;
+    line-height: 60px;
+    font-weight: unset;
+    
+
+}
+/***-------------- Estetica --------------***/
+
+body {
+background: grey;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+  background: #e6ddcf;
+}
+a{
+    color:#99141b;
+    text-decoration: none;
+}
+nav img{
+    display:none;
+}
+/* OCULTAR IMATGES */
+/* ocultem totes les imatges */
+.index nav img{
+display: inline;
+}
+/* mostrem totes les imatges del index */
+.pag1 nav div:nth-child(1) img{
+display:inline;
+}
+/* mostrem la primera foto de la pagina 1 */
+.pag2 nav div:nth-child(2) img{
+    display:inline;
+}
+/* mostrem la segona foto de la pagina 2 */
+.pag3 nav div:nth-child(3) img{
+    display:inline; 
+}
+/* mostrem la tercera foto de la pagina 3 */
+.pag4 nav div:nth-child(4) img{
+    display:inline;   
+}
+/* OCULTAR TEXT */
+nav .frasefl{
+    display:none;
+}
+/* ocultem tots els texts */
+.index nav .frasefl{
+display: block;
+}
+
+/* OCULTAR LINK */
+
+
+.pag1 nav div:nth-child(1) a{
+display:none;
+}
+/* mostrem el primer text de la pagina 1 */
+.pag2 nav div:nth-child(2) a{
+    display:none;
+}
+/* mostrem el segon text de la pagina 2 */
+.pag3 nav div:nth-child(3) a{
+    display:none; 
+}
+/* mostrem el tercer text de la pagina 3 */
+.pag4 nav div:nth-child(4) a{
+    display:none;  
+}
+
+/* mostrem el quart text de la pagina 4 */
+
+/* ombra de caixa / separació-horitzontal  separació-vertical desenfocament propagació color (amb comes repeteix) 
+
+
+{ box-shadow: 10px 10px 10px 10px #000000; }
+
+*/

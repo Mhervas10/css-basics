@@ -1,0 +1,248 @@
+/***
+
+RECURSOS
+
+
+RESET
+https://cdnjs.com/libraries/meyer-reset
+
+COLORS
+colorzilla
+
+
+grey    crema fosc 
+#fef9ff crema 
+#fef9ff crema clar 
+
+#a00013 Granate: 
+red     Granate clar
+
+grisos
+#ddd
+
+
+
+IL·LUSTRACIONS
+https://etc.usf.edu/clipart/
+
+https://www.oldbookillustrations.com/
+
+***/
+
+
+
+/* imatges 600x400 */
+
+
+/***-------------- Estructura --------------***/
+
+header,
+nav,
+main,
+aside,
+footer {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  
+}
+ 
+/***-------------- Tipografia --------------***/
+
+div {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px; 
+    box-shadow: 0px 0px 1px 1px #000000;
+}
+
+
+/***-------------- Estetica --------------***/
+
+body {
+background: grey;
+padding: 20px;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+  background: #fef9ff;
+  box-sizing: border-box;
+  padding: 20px;
+}
+    
+/* ombra de caixa / separació-horitzontal  separació-vertical desenfocament propagació color (amb comes repeteix) 
+
+
+/* { box-shadow: 10px 10px 10px 10px #000000; }   */
+
+/* primer valor desplazamiento lateral segundo valor desplazamiento arriba/abajo tercer valor desenfoque cuarto valor width last color */
+
+nav img {
+    display: none; 
+}
+
+nav img.pag01 {
+    display: inline; 
+}
+
+.hello, .hello2 {
+    display: none;
+}
+
+.index nav img {
+    display: inline;
+}
+
+.pag01 nav div:nth-child(1) img {
+    display: inline;
+}
+
+.pag02 nav div:nth-child(2) img {
+    display: inline;
+}
+
+.pag03 nav div:nth-child(3) img {
+    display: inline;
+}
+
+.pag04 nav div:nth-child(4) img {
+    display: inline;
+}
+
+.pag01 nav .index,
+.pag02 nav .index,
+.pag03 nav .index,
+.pag04 nav .index {display: none;}
+
+
+.pag02 {}
+
+.pag03 {}
+
+.pag04 {}
+
+
+img {
+    display: inline-block; 
+    width: 500px;
+    padding: 20px;
+}
+
+header, p.pretitulo, p.intro, p.cursiva, p.titulo, p.subtexto {
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+p.intro {
+    color: #ddd;
+    font-style: italic;
+    line-height: 10px;
+}
+
+p.pretitulo, p.titulo, p.subtexto, h2, .note {
+    text-transform: uppercase;
+}
+
+p.pretitulo {
+    line-height: 20px;
+}
+
+p.pretitulo, p.subtexto {
+    font-weight: bold;
+}
+
+p.titulo a{
+    text-decoration: none;
+}
+
+p.titulo a:hover {
+    color:blue;
+}
+
+p.enlace a {
+    margin-left: 200px; 
+}
+
+p.enlaces a {
+    margin-left: 200px;
+}
+
+p.enlacesi a {
+    margin-left: 100px; 
+}
+
+p.titulo {
+    color: #a00013;
+    font-size: 2.5rem;
+    line-height: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, monospace;
+}
+
+p.cursiva {
+    font-style: italic;
+    color: #ddd;
+    line-height: 10px;
+}
+
+p.subtexto {
+    line-height: 7px;
+}
+
+.hello::first-letter, .hello3::first-letter {
+    color: #a00013;
+    font-size: 3rem;
+    margin: 0 0 -30px 0;
+}
+
+.hello, p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.hello2::first-letter {
+    color: #a00013;
+    font-size: 3rem;
+    margin: 0 0 0 0;
+}
+
+p a {
+    text-align: center;
+    color: #a00013;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 100px;
+    font-size: 2.5rem;
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2>p {
+    color: #a00013;
+    text-align: center;
+    display: inline;
+}
+
+.note {
+    margin: -5px;
+}
+
+.hello2 {
+    margin-top: -15px;
+}
+
+footer p {
+    color: grey;
+}

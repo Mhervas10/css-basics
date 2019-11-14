@@ -1,0 +1,70 @@
+
+
+/***** ESTRUCTURA *****/
+
+/* align-items - alineació eix secundari
+
+S'utilitza per alinear els ítems en l'eix secundari
+
+align-items: stretch; (per defecte) estirament
+align-items: flex-start;
+align-items: flex-end;
+align-items: center;
+align-items: baseline; Linia de Base de les tipografies. Proveu activant selecció de germans
+
+*/
+
+main { 
+	
+	display: flex;
+
+	align-items: stretch; 
+
+	height: 400px; 
+
+}
+
+/* Seleció de germans diferents
+
+section:nth-child(1) { font-size:1em;}
+section:nth-child(2) { font-size:2em;}
+section:nth-child(3) { font-size:1.2em;}
+section:nth-child(4) { font-size:0.8em;}
+
+*/
+
+
+/* Alineació del element seleccionat 
+
+align-self: auto | stretch | center | flex-start | flex-end | baseline
+*/
+
+/*
+
+section:nth-child(3) { align-self: center; }
+
+*/
+
+
+
+/* ESTRUCTURA sense relació amb flex box */
+
+body  {padding:20px;}
+
+section { padding: 20px; }
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+main { background: LightGray; }
+
+section {
+background: orange;
+border: 1px solid #000;
+}

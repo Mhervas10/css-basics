@@ -1,0 +1,70 @@
+
+
+/***** ESTRUCTURA *****/
+
+
+body { 
+
+
+	display: flex;
+	min-height: 100vh;
+
+
+}
+
+main, footer {
+
+	display: flex;
+	width: 50%;
+	align-items: center;
+
+}
+
+
+main, footer {
+
+justify-content: center;
+
+}
+
+
+/***** TIPOGRAFIA *****/
+
+body { 
+	font-family: Arial, Helvetica, sans-serif; 
+font-size: 72px; text-transform: uppercase;
+}
+
+
+
+/***** ESTETICA *****/
+
+main { background: black; color: orange; }
+footer { background: orange; color: black;}
+
+
+/***** RESPONSIU *****/
+
+
+@media screen and (max-width: 500px) {
+
+body { 
+
+	flex-direction: column; 
+
+}
+
+main, footer { 
+
+	width: 100%; 
+	height: 50vh;
+	justify-content: center;
+
+	}
+
+}
+
+
+
+
+

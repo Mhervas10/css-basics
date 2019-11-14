@@ -1,0 +1,46 @@
+
+
+/***** ESTRUCTURA *****/
+
+/* Direcció del elements
+
+
+flex-direction: row; (per defecte)
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse;
+
+*/
+
+
+
+main { 
+	display: flex;
+	
+
+ }
+
+
+
+/* ESTRUCTURA sense relació amb flex box */
+
+body  {padding:20px;}
+
+section { padding: 20px;}
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+main { background: LightGray; }
+
+section {
+background: orange;
+border: 1px solid #000;
+}
+ 

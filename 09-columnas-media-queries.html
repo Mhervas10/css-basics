@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ca"> 
+  <head>    
+    <title>Columnes amb Media Queries</title> 
+    <meta charset="UTF-8">
+    <meta name="title" content="Títol de la WEB">
+    <meta name="description" content="Descripció de la pàgina">
+
+<!-- VIEWPORT   -->
+      
+<meta name="viewport" content= "width=device-width, initial-scale=1.0, maximum-scale=2 "> 
+      
+<!-- RESET CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />     
+  
+      
+<style>
+
+/**---------------- Estructura ----------------**/
+
+header, footer { padding: 20px; }
+    
+header, main { margin-bottom: 20px; }
+  
+main { text-align: center;  }
+    
+article  { 
+    box-sizing: border-box; 
+    display: inline-block;    
+}
+    
+img { width: 100%;} 
+
+img, h2 { padding-bottom: 20px;}
+    
+p  { padding: 0 20px 20px;}
+
+/**---------------- Tipografia ----------------**/
+
+html { font-size: 20px; }
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+p  { font-size: 1rem; } 
+   
+h1, h2, footer { text-align: center; }   
+    
+article p { text-align: left; }   
+    
+/**---------------- Estetica ----------------**/   
+
+header, footer { background: orange; }
+ 
+    
+/****---------------- Media Queries  ----------------****/   
+
+/***-- Mòbils amb 576px o més --***/
+    
+@media (min-width: 576px) {
+    
+    article  {   width: 48%;  padding: 2%; }
+    
+    p  { padding: 0 0 20px; }
+    
+    }
+    
+    
+ /***-- Tablets amb 768px o més --***/   
+
+@media (min-width: 768px) {
+    
+    article  {   width: 32%;  padding: 1%; }
+    
+    }
+    
+/***-- Escriptori amb 992px o més --***/
+    
+@media (min-width: 992px) {
+    
+    article  {   width: 24%;  padding: 1%; }
+    
+    }
+    
+/***-- pantalles extra grans amb 1200px o més --***/
+    
+@media (min-width: 1200px) {
+    
+    
+    
+    }
+    
+</style>
+
+</head>
+
+<body>
+
+    <header>
+
+      <h1>Columnes amb Media Queries</h1>
+   
+    </header> 
+
+    <main> 
+            
+            <article>
+                <img src="img/cotxe-h.jpg" alt="cotxe">
+                <h2>Subtitol H2</h2>
+                <p>Rutrum mollis tristique vitae himenaeos torquent eleifend potenti montes, volutpat lectus proin donec penatibus sed mattis ridiculus, in enim commodo magna litora lacus feugiat. Ultrices semper ut leo diam proin mus venenatis, ad potenti aliquam in posuere lectus cras ridiculus, luctus malesuada rutrum laoreet class justo. Per dignissim aliquam class euismod morbi aenean massa, ac suscipit lobortis eu primis vel convallis, ridiculus nam ad turpis nisi et.</p>
+            </article>
+
+            <article>
+                <img src="img/cotxe-h.jpg" alt="cotxe">
+                <h2>Subtitol H2</h2>
+                <p>Rutrum mollis tristique vitae himenaeos torquent eleifend potenti montes, volutpat lectus proin donec penatibus sed mattis ridiculus, in enim commodo magna litora lacus feugiat. Ultrices semper ut leo diam proin mus venenatis, ad potenti aliquam in posuere lectus cras ridiculus, luctus malesuada rutrum laoreet class justo. Per dignissim aliquam class euismod morbi aenean massa, ac suscipit lobortis eu primis vel convallis, ridiculus nam ad turpis nisi et.</p>
+            </article>
+
+            <article>
+                <img src="img/cotxe-h.jpg" alt="cotxe">
+                <h2>Subtitol H2</h2>
+                <p>Rutrum mollis tristique vitae himenaeos torquent eleifend potenti montes, volutpat lectus proin donec penatibus sed mattis ridiculus, in enim commodo magna litora lacus feugiat. Ultrices semper ut leo diam proin mus venenatis, ad potenti aliquam in posuere lectus cras ridiculus, luctus malesuada rutrum laoreet class justo. Per dignissim aliquam class euismod morbi aenean massa, ac suscipit lobortis eu primis vel convallis, ridiculus nam ad turpis nisi et.</p>
+            </article>
+
+            <article>
+                <img src="img/cotxe-h.jpg" alt="cotxe">
+                <h2>Subtitol H2</h2>
+                <p>Rutrum mollis tristique vitae himenaeos torquent eleifend potenti montes, volutpat lectus proin donec penatibus sed mattis ridiculus, in enim commodo magna litora lacus feugiat. Ultrices semper ut leo diam proin mus venenatis, ad potenti aliquam in posuere lectus cras ridiculus, luctus malesuada rutrum laoreet class justo. Per dignissim aliquam class euismod morbi aenean massa, ac suscipit lobortis eu primis vel convallis, ridiculus nam ad turpis nisi et.</p>
+            </article>
+        
+    </main>
+
+     
+    <footer>
+      <p>Això és el footer</p>
+    </footer>
+     
+  </body>  
+</html>

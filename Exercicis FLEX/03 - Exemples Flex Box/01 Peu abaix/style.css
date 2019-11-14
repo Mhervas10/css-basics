@@ -1,0 +1,54 @@
+
+
+/***** ESTRUCTURA *****/
+
+/* 
+
+Aconseguir que el peu es quedi abaix encara que no hagi suficien text
+
+// per el body
+
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+
+//per el footer
+
+margin-top: auto;
+
+Per que cal el margin-top: auto ? 
+
+https://css-tricks.com/the-peculiar-magic-of-flexbox-and-auto-margins/
+
+*/
+
+
+
+body { 
+	
+
+}
+
+footer { 
+
+}
+
+
+
+/* ESTRUCTURA sense relació amb flex box */
+
+
+header, main, footer { padding: 20px; width: auto;}
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+header, footer { background: orange; }
+p {text-align:justify;}
+h1, header p, footer p {text-align: center;}

@@ -1,0 +1,266 @@
+/* reset del css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-roles reincio para los antiguos navegadores*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***
+
+RECURSOS
+
+
+RESET
+https://cdnjs.com/libraries/meyer-reset
+
+COLORS
+colorzilla
+
+
+grey    crema fosc 
+#fef9ff crema 
+#fef9ff crema clar 
+
+#a00013 Granate: 
+red     Granate clar
+
+grisos
+#ddd
+
+
+
+IL·LUSTRACIONS
+https://etc.usf.edu/clipart/
+
+https://www.oldbookillustrations.com/
+
+***/
+
+
+
+
+
+
+/***-------------- Estructura --------------***/
+
+header,
+nav,
+main,
+aside,
+footer {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  
+}
+ 
+/***-------------- Tipografia --------------***/
+
+
+
+
+/***-------------- Estetica --------------***/
+
+body {
+background: grey;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+  background: #fef9ff;
+}
+    
+/* ombra de caixa / separació-horitzontal  separació-vertical desenfocament propagació color (amb comes repeteix) 
+
+
+{ box-shadow: 10px 10px 10px 10px #000000; }
+
+*/
+
+/* Estilo del hmtl en general */
+html{
+	/* color de fondo del toda la página */
+	background-color: wheat;
+	/* familia de la letra */
+	font-family: sans-serif;
+}
+
+span{
+	font-size: 200px;
+	color: red;
+}
+.sub_tit{
+	font-size: 100px;
+	color: black;
+}
+/* estilo del header */
+header{
+	/* aliniación de los elementos en el centro */
+	text-align: center;
+	/* padding entre el header y el resto de elementos */
+	padding: 20px;
+}
+/* estilo del titulo primero de la página */
+.titulo_cursiva{
+	/* poner la letra en cursiva */
+	font-style: italic;
+	/* pading entre las frases del titulo */
+	padding: 10px;
+}
+/* estilo del titulo secundario de la página */
+.titulo_negrita{
+	/* pone todo el texto en mayúsculas */
+	text-transform: uppercase;
+	/* cambia el tamaño de la fuente */
+	font-size: 20px;
+}
+/* estilo del titulo principal de la página */
+.principal{
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 50px;
+	color: red;
+	font-weight: bold;
+}
+
+/* estilo de todas las cajas del navegador */
+nav{
+	/* padding aplicado a todo el nav */
+	padding: 20px;
+	/* posición de todo el nav */
+	position: relative;
+}
+/* estilo aplicado a todos los div del navegador */
+nav div{
+	/* borde de todos los div del navegador */
+	border: 1px solid gray;
+	/* margen aplicado a todos los div del navegador */
+	margin: 40px;
+	/* padding aplicado a todo el nav */
+	padding:40px 20px;
+	/* sombra aplicado a todas las cajas del nav */
+	box-shadow: 1px 1px 10px #000000;
+	/* alinear en el centro los elmentos de los nav */
+	text-align: center;
+}
+/* estilo de todas las imagenes */
+img{
+	/* tamaño total de las img */
+	width: 85%;
+	/* margen aplicado a las img */
+	margin: 10px 0;
+	/* modificación de colores aplicada a las img */
+	mix-blend-mode: multiply;
+}
+/* estilo de la primera frase de cada div */
+.cursiva{
+	margin-bottom: 10px;
+	font-style: italic;
+}
+.titulo{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.texto{
+	text-align: justify;
+}
+
+.texto::first-letter{
+	font-size: 75px;
+	color:red;
+	float: left;
+}
+	
+.pag01 nav img {
+	display: none;
+}	
+
+.pag02 nav img {
+	display: none;
+
+}
+
+.pag03 nav img {
+	display: none;
+
+}
+
+.pag04 nav img {
+	display: none;
+
+}
+	
+nav .texto{
+	display:none;
+}
+.index nav img{
+	display: inline;
+}
+.pag01 nav div:nth-child(1) img {
+	display: inline;
+}
+.pag02 nav div:nth-child(2) img {
+	display: inline;
+}
+.pag03 nav div:nth-child(3) img {
+	display: inline;
+}
+.pag04 nav div:nth-child(4) img {
+	display: inline;
+}
+
+.pag01 nav div:nth-child(1) a {
+	display: none;
+}
+.pag02 nav div:nth-child(2) a {
+	display: none;
+}
+.pag03 nav div:nth-child(3) a {
+	display: none;
+}
+.pag04 nav div:nth-child(4) a {
+	display: none;
+}
+

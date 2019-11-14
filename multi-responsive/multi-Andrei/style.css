@@ -1,0 +1,174 @@
+
+
+
+/***
+RECURSOS
+RESET
+https://cdnjs.com/libraries/meyer-reset
+COLORS
+colorzilla
+grey    crema fosc 
+#fef9ff crema 
+#fef9ff crema clar 
+
+#a00013 Granate: 
+red     Granate clar
+grisos
+#ddd
+/* paleta de colors
+crema oscuro #E6DDCE
+crema #EFE9DF
+crema claro #F3EFE8
+granate #88141B
+granate CLM #BE696D
+Grises #111 #333 #666  #999 #ccc #ddd #eee #fff 
+*/
+IL·LUSTRACIONS
+https://etc.usf.edu/clipart/
+
+https://www.oldbookillustrations.com/
+
+/***-------------- Estructura --------------***/
+*{
+    padding: 10px;} 
+
+    body{
+        width:600px;
+        margin:auto;}
+
+header,
+nav,
+main, aside, footer {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing:border-box;
+  padding:10px;
+ } 
+
+ header{
+     text-align:center;}
+
+
+nav div {text-align:center;}
+
+nav div{
+
+    margin: 30px 10px;
+    padding:20px;
+    box-sizing: border-box;
+    border: 1px solid black;}
+ 
+ nav img {
+    width:450px;
+    text-align: center;}
+
+.img{
+    display: block;
+    width:450px;
+    text-align: center;}
+
+nav div p.Hello{
+    text-align:justify;}
+
+nav div p.Hello::first-letter{
+    text-transform: capitalize;
+    font-size: 3rem;
+    color:#88141B;
+    float: left;}
+
+    nav div p{
+        padding: 10px;
+        margin:10px;
+        box-sizing: border-box;
+    }
+
+nav div p a{
+    text-align:center;
+    display:block;
+    margin: 10px;}
+
+    main div {
+        padding:10px;
+        border:1px solid black;
+        margin: 0 auto;
+        width:90%;
+        text-align: center;
+    }
+
+    aside div{
+        padding:10px;
+        border:1px solid black;
+        margin: 30px auto;
+        width:90%;
+        text-align: center;
+      /*  text-align: center;
+        margin: 20px;
+        padding:20px;
+        border:1px solid black;
+        width:600px;
+        text-align: center;
+         box-sizing: border-box; */
+    }
+
+aside div img{
+    margin:20px auto;
+    display: block;
+}
+
+    main p{
+        text-align:justify;
+        padding:10px;}
+
+        footer p{
+            width: inherit;
+            margin:0 10px;
+            text-align:center;
+            box-sizing: border-box;
+            border:solid black 1px;
+            padding:10px;
+            font-size:1.1rem;
+            line-height: 2rem;
+        }
+
+/***-------------- Tipografia --------------***/
+
+header .author {
+    text-transform: uppercase;
+    font-size:3rem;}
+
+.potted{
+    color: black;
+    font-variant: small-caps;
+    font-weight: bold;}
+
+.bottled{
+    font-style: italic;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;}
+
+/***-------------- Estetica --------------***/
+
+body {
+background: grey;}
+
+header,
+nav,
+main,
+aside,
+footer {
+  background: #fef9ff;}
+
+header .author{
+    color:  #88141B;}
+
+    a{text-decoration: none}
+
+    div nav, main, 
+
+    
+/* ombra de caixa / separació-horitzontal  separació-vertical desenfocament propagació color (amb comes repeteix) 
+
+
+{ box-shadow: 10px 10px 10px 10px #000000; }
+
+*/

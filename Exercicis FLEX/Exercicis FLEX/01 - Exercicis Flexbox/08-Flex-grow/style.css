@@ -1,0 +1,46 @@
+
+
+/***** ESTRUCTURA *****/
+
+/* flex-grow
+
+especifica quant creixerà l'element en relació amb la resta dels elements flexibles dins del mateix contenidor.
+Aquest número es una fracció del espai buit.
+
+
+flex-grow: 0; Valor per defecte
+flex-grow: 1; 
+2, 3, 4, etc... ( admet decimals -> 0.5 )
+
+*/
+
+main {  display: flex; }
+
+section:nth-child(1) { flex-grow: 0; }
+section:nth-child(2) { flex-grow: 0; }
+section:nth-child(3) { flex-grow: 0; }
+section:nth-child(4) { flex-grow: 0; }
+
+
+
+/* ESTRUCTURA sense relació amb flex box */
+
+body  {padding:20px;}
+
+section { padding: 20px;}
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+main { background: LightGray; }
+
+section {
+background: orange;
+border: 1px solid #000;
+}

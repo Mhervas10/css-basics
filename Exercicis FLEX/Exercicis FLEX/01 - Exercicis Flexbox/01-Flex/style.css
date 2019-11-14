@@ -1,0 +1,43 @@
+
+
+/***** ESTRUCTURA *****/
+
+/* 
+
+Definim l'element flexbox contenidor
+
+No cal definir els flex items, son els fills directes del contenidor.
+
+Si no es defineix l'eix principal, per defecte es l'horitzontal.
+
+display:flex;
+display:inline-flex;
+
+*/
+
+
+/* 
+main { display:inline-flex; }
+
+*/
+
+/* ESTRUCTURA sense relació amb flex box */
+
+body  {padding:20px;}
+section { padding: 20px; }
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+main { background: LightGray; }
+
+section {
+background: orange;
+border: 1px solid #000;
+}

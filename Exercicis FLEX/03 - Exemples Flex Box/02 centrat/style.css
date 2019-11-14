@@ -1,0 +1,38 @@
+
+
+/***** ESTRUCTURA *****/
+
+/* Element centrat horitzontal i vertical */
+
+main { 
+
+	display: flex;
+
+  	align-items: center; 
+
+
+  	height: 100vh;
+  	
+   }
+
+   
+
+/* ESTRUCTURA sense relació amb flex box */
+
+section { padding: 20px; }
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+main { background: LightGray; }
+
+section {
+background: orange;
+border: 1px solid #000;
+}

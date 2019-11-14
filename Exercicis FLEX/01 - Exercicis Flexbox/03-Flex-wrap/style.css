@@ -1,0 +1,50 @@
+
+
+/***** ESTRUCTURA *****/
+
+/* Envolvent o multilinía
+
+
+flex-wrap: nowrap;  (Per defecte) Fa flexibles els fills idependentment de l'amplada
+flex-wrap: wrap;  Si no hi cap salta un element de línia.
+flex-wrap: wrap-reverse;  Si no hi cap salta un element de línia i canvia l’ordre de la linia no dels elements
+
+*/
+
+main { 
+
+	display: flex; 
+
+	flex-wrap: nowrap;
+
+}
+
+/* 
+
+section { width:40%; }
+
+*/
+
+
+
+/* ESTRUCTURA sense relació amb flex box */
+
+body  {padding:20px;}
+
+section { padding: 20px;}
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+main { background: LightGray; }
+
+section {
+background: orange;
+border: 1px solid #000;
+}

@@ -1,0 +1,246 @@
+
+/***
+
+RECURSOS
+
+
+RESET
+https://cdnjs.com/libraries/meyer-reset
+
+COLORS
+colorzilla
+
+
+grey    crema fosc 
+#fef9ff crema 
+#fef9ff crema clar 
+
+#a00013 Granate: 
+red     Granate clar
+
+grisos
+#ddd
+
+
+
+IL·LUSTRACIONS
+https://etc.usf.edu/clipart/
+
+https://www.oldbookillustrations.com/
+
+***/
+
+
+
+
+
+
+/***-------------- Estructura --------------***/
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    /* background: #fef9ff; */
+    background-color: #E6DDCE;
+    box-shadow: none;
+}
+header,
+nav,
+main,
+aside,
+footer {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+    text-align: center;
+}
+header {
+    padding: 1rem 0 5rem 0;
+
+}
+nav div p a {
+    margin-top: 2rem;
+    display:block;
+}
+p {
+    text-align: justify;
+    line-height: 1.3rem;
+}
+div p:last-child {
+   text-align: center;
+}
+
+/***-------------- Tipografia --------------***/
+
+.autor {
+    color: #a00013;
+    font: 3rem "Times new roman";
+    text-transform: uppercase;
+    text-align: center;
+}
+.stablished {
+    font: 0.5rem;
+    color: gray;
+    font-style: italic;
+    text-align: center;
+    margin-bottom:1rem;
+}
+.celebrated {
+    font: 1rem;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    /* font-variant: small-caps; */
+}
+.bottled {
+    font: 0.5rem;
+    color: gray;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.potted {
+    font: 1rem;
+    text-transform: uppercase;
+    /* font-variant: small-caps; */
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+.hello::first-letter {
+    color:#a00013;
+    font-size: 5rem;
+    float: left;
+    margin: 20px 10px 20px 0;
+  
+}
+h1 {
+    font-size: 3rem;
+    text-align: left;
+}
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 5rem 0 1rem 0;
+}
+.notes {
+    font-variant: small-caps;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+a {
+    text-decoration: none;
+}
+/***-------------- Estetica --------------***/
+
+body {
+background: grey;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+  /* background: #fef9ff; */
+  background-color: #E6DDCE;
+}
+
+div {
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px 3px lightgrey;
+    margin-bottom: 1.5rem;
+    background: #F3EFE8;
+}
+img {
+    width: 400px;
+    display: block;
+    margin: 1rem auto;
+    mix-blend-mode: multiply;
+}
+main p:last-child {
+    text-align: justify;
+}
+/* ombra de caixa / separació-horitzontal  separació-vertical desenfocament propagació color (amb comes repeteix) 
+
+
+{ box-shadow: 10px 10px 10px 10px #000000; }
+
+*/
+header p a {
+    text-decoration: none;
+    color: #a00013;
+    font: 3rem "Times new roman";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+/* amaguem les imatges del nav a totes les pagines */
+nav img {
+    display: none;
+}
+/* mostrem les imatges del nav a la pagina index */
+.index nav img {
+    display: inline;
+}
+/* mostrem la seva propia imatge del nav a cada pagina */
+
+.pag01 nav div:nth-child(1) img, .pag02 nav div:nth-child(2) img, .pag03 nav div:nth-child(3) img, .pag04 nav div:nth-child(4) img {
+    display: inline;
+}
+
+/* amageum el text sota l'imatge a totes les pàgines */
+/* .pag01 nav .hello, .pag02 nav .hello, .pag03 nav .hello, .pag04 nav .hello {
+    display: none;
+} */
+/* .pag01 nav div:nth-child(1) .hello, .pag02 nav div:nth-child(2) .hello, .pag03 nav div:nth-child(3) .hello, .pag04 nav div:nth-child(4) .hello {
+    display: inline-block;
+} */
+
+nav .hello {
+    display: none;
+}
+
+.index nav .hello {
+    display: block;
+}
+.pag01 nav div:nth-child(1) p:last-child, .pag02 nav div:nth-child(2) p:last-child, .pag03 nav div:nth-child(3) p:last-child, .pag04 nav div:nth-child(4) p:last-child {
+    display: none;
+}
+
+
+
+
+
+
+/* botón para volver al top */
+
+.button {
+    width: 130px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #a00013;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #E6DDCE;
+    transition: background-color 0.5s ease-in 1s;
+    /* transition-timing-function: linear; */
+}
+
+.button:hover {
+    background-color: lightsalmon;
+    color: white;
+}

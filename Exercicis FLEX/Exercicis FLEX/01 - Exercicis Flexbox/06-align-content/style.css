@@ -1,0 +1,58 @@
+
+
+/***** ESTRUCTURA *****/
+
+
+
+/* align-content
+
+Ajusta les línies dins d'un contenidor flex quan hi ha espai extra a l'eix secundari.
+
+Aquesta propietat no té efecte en caixes flexibles d'una sola línia.
+
+align-content: stretch; (per defecte) estirament
+align-content: flex-start;
+align-content: flex-end;
+align-content: center;
+align-content: space-between; espai entre elements
+align-content: space-around; espai al voltant dels elements
+
+*/
+
+main { 
+	 height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+
+ }
+
+/*  si desactivem l'amplada els elemens es quedan en una linea i align-content no te efecte */
+
+section { width: 40%; }
+
+
+
+
+
+/* ESTRUCTURA sense relació amb flex box */
+
+body  {padding:20px;}
+
+section { padding: 20px; }
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+main { background: LightGray; }
+
+section {
+background: orange;
+border: 1px solid #000;
+}

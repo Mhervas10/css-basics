@@ -1,0 +1,142 @@
+/***
+
+RECURSOS
+
+
+RESET
+https://cdnjs.com/libraries/meyer-reset
+
+COLORS
+colorzilla
+
+
+grey    crema fosc 
+#fef9ff crema 
+#fef9ff crema clar 
+
+#a00013 Granate: 
+red     Granate clar
+
+grisos
+#ddd
+
+
+
+IL·LUSTRACIONS
+https://etc.usf.edu/clipart/
+
+https://www.oldbookillustrations.com/
+
+***/
+
+
+
+
+
+
+/***-------------- Estructura --------------***/
+
+header,
+nav,
+main,
+aside,
+footer {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* padding: 10px; */
+  
+}
+aside div{
+    outline: 1px solid black;
+    margin: 10px 10px 0 10px;
+
+}
+
+main{
+    border-top: 0;
+} 
+
+/***-------------- Tipografia --------------***/
+
+
+
+
+/***-------------- Estetica --------------***/
+
+body {
+background-color:gray;
+
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+  background: #fef9ff;
+}
+nav div{
+    background-color: cornsilk;
+    outline: 1px solid black;
+   padding: 10px 10px;
+   margin: auto 20px 10px 20px;
+}
+html{
+    background-color: gray;
+}
+img{
+    background: cornsilk;
+    width: 80%;
+    margin: 0 10%;
+
+}
+
+.paragraf::first-letter{
+    float: left;
+    size: 300px;
+    width: 500px;
+    color: red;
+    height: 400px;
+    margin: 10px;
+}
+.gran{
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+    
+}
+ .petit{
+     text-align: center;
+     color: black;
+     font-size: 1.5rem;
+ }
+
+ .cursiva{
+     text-align: center;
+     font-size: 1rem;
+     color: gray;
+     font-style: oblique;
+ }
+
+ 
+
+nav img{display: none;}
+
+.index nav img{display: inline;}
+
+ /* .pagina1 nav img,
+
+ .pagina2 nav img,
+
+ 
+    
+ .pagina3 nav img,
+
+ 
+ .pagina4 nav img { display:inline;} */
+
+ .pagina1 nav div:nth-child(1) img { display: inline;}
+ .pagina2 nav div:nth-child(2) img {display: inline;}
+ .pagina3 nav div:nth-child(3) img { display: inline}
+ .pagina4 nav div:nth-child(4) img {display: inline;}

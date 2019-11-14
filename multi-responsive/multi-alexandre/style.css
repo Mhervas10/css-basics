@@ -1,0 +1,97 @@
+/*colores*/
+/*
+crema oscuro: #e6ddcf;
+crema: #efe9df;
+crema clar: #f3efe8;
+granate: #99141b;
+granate clar: #be696d;
+*/
+
+/*** Pag 2 ***/
+
+/* Pagina 2, img hidden p hidden*/
+
+.pag02 nav img {
+    display: none;
+}
+.pag02 nav .letter {
+    display: none;
+}
+
+/* Img Cranc Inline */
+
+.pag02 nav div:nth-child(1) img {
+    display:inline;
+}
+
+/* Link Hidden */
+
+.pag02 nav div:nth-child(1) a {
+    display: none;
+}
+
+/*** Pag 3 ***/
+
+/* Pagina 3, img hidden p hidden*/
+
+.pag03 nav img {
+    display: none;
+}
+.pag03 nav .letter {
+    display: none;
+}
+
+/* Img Pop Inline */
+
+.pag03 nav div:nth-child(2) img {
+    display: inline;
+}
+
+/* Link Hidden */
+
+.pag03 nav div:nth-child(2) a {
+    display: none;
+}
+/*** Pag 4 ***/
+
+/* Pagina 4, img hidden p hidden*/
+
+.pag04 nav img {
+    display: none;
+}
+.pag04 nav .letter {
+    display: none;
+}
+
+/* Img Mono Inline */
+
+.pag04 nav div:nth-child(3) img {
+    display: inline;
+}
+/* Link Hidden */
+
+.pag04 nav div:nth-child(3) a {
+    display: none;
+}
+/*** Pag 5 ***/
+
+/* Pagina 5, img hidden p hidden*/
+
+.pag05 nav img {
+    display: none;
+}
+.pag05 nav .letter {
+    display: none;
+}
+
+/* Img Pato Inline */
+
+.pag05 nav div:nth-child(4) img {
+    display: inline;
+}
+
+/* Link Hidden */
+
+.pag05 nav div:nth-child(4) a {
+    display: none;
+}

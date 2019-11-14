@@ -1,0 +1,235 @@
+/***
+
+RECURSOS
+
+
+RESET
+https://cdnjs.com/libraries/meyer-reset
+
+COLORES
+colorzilla
+
+
+------ COLORES -------
+crema oscuro: #E6DDCE
+crema: #EFE9DF
+crema claro: #F3EFE8
+granate: #99141B
+granate clar: #BE696D
+
+------ GRISES -------
+#000
+#111
+#333
+#666
+#999
+#CCC
+#DDD
+#EEE
+
+
+
+IL·LUSTRACIONS
+https://etc.usf.edu/clipart/
+
+https://www.oldbookillustrations.com/
+
+***/
+
+
+
+
+
+
+/***-------------- ESTRUCTURA --------------***/
+
+header, nav, main, aside, footer {
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 2rem 2rem;
+}
+ 
+img {
+    width: 100%;
+    mix-blend-mode: multiply;
+} 
+
+
+nav div, aside div {
+    padding: 1.5rem;
+    margin: 0 0 1.5rem 0;
+}
+
+
+.titulo1, .titulo2, .titulo3 {
+    padding: 0.4rem;
+}
+
+
+ 
+/***-------------- TIPOGRAFÍA --------------***/
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+
+/* Títulos + footer*/
+
+.titulo1, .titulo2, .titulo3, footer {
+    text-align: center;
+}
+
+.titulo1{
+    font-style: italic;
+}
+
+.titulo2, .titulo3, .titulo4 {
+    text-transform: uppercase;
+}
+
+.titulo3, .titulo4, a {
+    font-weight: 700;
+}
+
+.titulo3 {
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo4{
+    font-size: 1.5rem;
+}
+
+
+/* Hipervínculos */
+
+a {
+    text-decoration: none;
+}
+
+/* Primera letra */
+
+.texto::first-letter{
+    font-size: 3rem;
+    float: left;
+    margin: 10px;
+}
+
+
+/***-------------- ESTÉTICA --------------***/
+
+body {
+    background: grey;
+}
+
+header, nav, main, aside, footer {
+    background: #EFE9DF;
+}
+
+nav div, aside div{
+    border: 1px #CCC solid;
+    border-radius: 5px;
+    background-color: #F3EFE8;
+    box-shadow: 0 0 10px 1px #CCC;
+}
+
+.titulo1{
+    color: #666;
+}
+
+.titulo3, .titulo4, a, .texto::first-letter {
+    color: #99141B;
+}
+
+
+h2 {
+    border-bottom: 1px solid black;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+
+/* ombra de caixa / separació-horitzontal  separació-vertical desenfocament propagació color (amb comes repeteix) 
+
+{ box-shadow: 10px 10px 10px 10px #000000; }
+
+*/
+
+
+/* Escondemos las imagenes del nav de todas las páginas */
+nav img {
+    display: none;
+}
+
+/* mostrem les imatges del nav a la pàgina index (al body hem afegit una class=index) */
+.index nav img {
+    display: inline;
+}
+
+/* mostrem la seva propia imatge del nav a cada pàgina (al body de cada pàgina li hem donat una class="nº de la página") */
+
+.pag01 nav div:nth-child(1) img {display: inline;}
+
+.pag02 nav div:nth-child(2) img {display: inline;}
+
+.pag03 nav div:nth-child(3) img {display: inline;}
+
+.pag04 nav div:nth-child(4) img {display: inline;}
+
+
+
+/* amaguem el text sota l'imatge a la pròpia pàgina */
+
+.pag01 nav .texto, .pag02 nav .texto, .pag03 nav .texto, .pag04 nav .texto {
+    display: none;
+}
+
+
+/*
+amaguem el text a totes les pàgines
+nav .texto {display: none}
+
+que aparegui el text a totes les pàgines
+.index nav .texto {display: block}
+
+*/
+
+
+/* amaguem l'enllaç a la seva pròpia pàgina */
+.pag01 nav div:nth-child(1) a {display: none;}
+
+.pag02 nav div:nth-child(2) a {display: none;}
+
+.pag03 nav div:nth-child(3) a {display: none;}
+
+.pag04 nav div:nth-child(4) a {display: none;}
+
+
+
+
+
+/* per mostrar el text a la pàgina corresponent
+nav .texto{
+    display: none;
+}
+
+.index nav .texto{
+    display: inline;
+}
+
+.pag01 nav div:nth-child(1) .texto {display: inline;}
+
+.pag02 nav div:nth-child(2) .texto {display: inline;}
+
+.pag03 nav div:nth-child(3) .texto {display: inline;}
+
+.pag04 nav div:nth-child(4) .texto {display: inline;} */
+
+

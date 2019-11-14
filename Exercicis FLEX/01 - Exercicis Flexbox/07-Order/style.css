@@ -1,0 +1,52 @@
+
+
+/***** ESTRUCTURA *****/
+
+/* Order
+Es pot fer servir juntament amb :nth-child() per seleccionar qualsevol element d'un ordre de germans.
+Es una mena d'agrupació.
+
+per defecte order: 0; per tots els elements
+
+order: -1;
+order: 0;
+order: 1;
+order: 2;
+order: 3;
+etc...
+
+Es una mena d'agrupació
+*/
+
+main {  display: flex; }
+
+section:nth-child(3) { order:0; background: red;}
+section:nth-child(2) { order:0; }
+section:nth-child(3) { order:0; }
+section:nth-child(4) { order:0; }
+
+
+
+
+
+/* ESTRUCTURA sense relació amb flex box */
+
+body  {padding:20px;}
+
+section { padding: 20px;}
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+main { background: LightGray; }
+
+section {
+background: orange;
+border: 1px solid #000;
+}

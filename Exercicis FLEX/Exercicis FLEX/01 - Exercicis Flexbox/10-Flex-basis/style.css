@@ -1,0 +1,58 @@
+
+
+/***** ESTRUCTURA *****/
+
+/* flex-basis
+
+Amplada si l’eix principal es horitzontal (width)
+Alçada si es vertical (heigth).  
+
+Aquest valor es l’inical, pot creixer o encongir si fem servir flex-shrink o flex-grow. 
+Sobreescriu width i height.
+Valor per defecte: Auto;
+
+*/
+
+
+main { 
+
+	display: flex; 
+
+	/* flex-direction: column; */
+
+}
+
+
+
+section:nth-child(2) { 
+
+	width:200px;
+	height: 200px;
+	
+	/* flex-basis: 400px; */
+
+}
+
+
+
+/* ESTRUCTURA sense relació amb flex box */
+
+body  {padding:20px;}
+
+section { padding: 20px;}
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+main { background: LightGray; }
+
+section {
+background: orange;
+border: 1px solid #000;
+}

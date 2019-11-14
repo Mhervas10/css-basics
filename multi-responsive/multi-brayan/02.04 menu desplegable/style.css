@@ -1,0 +1,161 @@
+/* colores */
+
+#e6ddce
+#efe9df
+#f3efe8
+#99141b
+#8e696d
+#be696d
+/* colores
+ */
+ 
+*{
+    margin:0;
+    padding: 0;
+}
+
+/***-------------- Estructura --------------***/
+/* hacemos desaparecer las imagenes de todas las paginas */
+ nav img{ display: none; 
+}
+/* hacemos desaparecer los textos de todas las paginas */
+nav div p:nth-child(4){display: none;}
+/* hacemos aparercer en index todas las imagenes */
+.index nav img{display: inline;}
+/* hacemos que desaparezcan las imagenes de todas */
+.pag01 nav img,
+.pag02 nav img,
+.pag03 nav img,
+.pag04 nav img{
+     display: none;
+    }
+/* hacemos que aparezca el texto en las paginas index */
+.index div p:nth-child(4){display: inline;}
+/* hacemos que desaparezca el texto a todas las paginas */
+.pag01 nav div:nth-child(1) p:nth-child(4),
+.pag02 nav div:nth-child(2) p:nth-child(4),
+.pag03 nav div:nth-child(3) p:nth-child(4),
+.pag04 nav div:nth-child(4) p:nth-child(4){
+        display: none;
+    }
+/* enseñar cada una de las imagenes de las paginas marcadas en los divs marcados */
+.pag01  nav div:nth-child(1) img,
+.pag02 nav div:nth-child(2) img,
+.pag03 nav div:nth-child(3) img,
+.pag04 nav div:nth-child(4) img{
+    display: inline;
+}
+/* ocultar todos los enlaces */
+
+.pag01  nav div:nth-child(1) p a,
+.pag02 nav div:nth-child(2) p a,
+.pag03 nav div:nth-child(3) p a,
+.pag04 nav div:nth-child(4) p a{
+    display: none;
+}
+
+header,
+nav,
+main,
+aside,
+footer,
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+nav>div, main>div,aside>div{
+border: 1px solid gray;
+padding: 40px ;
+
+}
+img{
+  margin: 0 -40px;
+}
+div{
+    margin: 30px 20px;
+}
+/***-------------- Tipografia --------------***/
+
+div>p:nth-child(4)::first-letter{
+    color:#99141b;
+    font-size: 3rem;
+    margin:-6px 0 2px 0;
+    float: left;
+    
+
+}
+div>p:nth-child(4){
+    text-align: justify;
+    float:left;
+}  
+.titulo, h1{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+/* primer titulo */
+header>p:first-child {
+    padding-top: 20px;
+    color: gray;
+    font-size: .8rem;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+/* segundo titulo */
+header>p:nth-child(2){
+   font-size: 1.2rem;
+  
+} 
+header>p:nth-child(3){
+    font-size: 4.2rem;
+    width: 100%;
+    color:#99141b;
+    padding-bottom: 40px;
+ } 
+ header>p>a:link{
+     text-decoration: none;
+     color:#99141b;
+ }
+
+div p>a{
+    text-align:center;
+}
+/***-------------- Estetica --------------***/
+
+div>p:first-child{
+    color: gray;
+
+}
+div:not(.container){
+    box-shadow: 1px 1px 5px 1px #000000;
+}
+div p>a{
+    margin:0 auto;
+}
+body {
+background:#f3efe8;
+}
+
+header,
+nav,
+main,
+aside,
+footer,
+.container {
+  background: #e6ddce;
+  text-align: center;
+}
+img{
+    /* display: block; */
+    mix-blend-mode: multiply;
+}   
+/* ombra de caixa / separació-horitzontal  separació-vertical desenfocament propagació color (amb comes repeteix) 
+
+
+{ box-shadow: 10px 10px 10px 10px #000000; }
+
+*/
+

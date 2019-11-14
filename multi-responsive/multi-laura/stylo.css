@@ -1,0 +1,128 @@
+/*--------------------Reset CSS-------------------------------*/
+
+/*@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" ;*/
+
+
+
+/*------------------Estructura-----------------------------*/
+
+.contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+/*--------------------Tipologia----------------------------*/
+
+
+
+
+
+
+/*------------------------Estetica-----------------------*/
+
+/* 
+crema oscuro #E6DDCE
+crema #EFE9DF
+crema claro #F3EFE8
+granate #991413
+granate claro #BE696D
+
+#111
+#333
+#666
+#999
+#CCC
+#DDD
+#EEE
+#FFF
+
+*/
+/*
+background: green;
+
+multiply – multiplicar
+darken – foscor
+hue – tonalitat
+color – color
+
+screen – pantalla
+lighten – alleugerir
+color-dodge – esquivar de color
+exclusion – exclusió
+
+overlay – superposició
+color-burn – color cremat
+difference – diferència
+saturation – saturació
+luminosity – lluminositat
+
+*/
+
+html {
+    font-size: 22px; /*se declara un unico tamaño para todo, y luego para segun alguna especifica, especificamos el tamaño*/
+}
+
+header, nav, main, aside, footer {
+    max-width: 600px;
+}
+
+img {
+    mix-blend-mode: overlay;
+    background-color: orange;
+}
+
+div {
+    padding: 0 2rem;
+}
+
+
+/*main {
+    
+}
+*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /*font-size: 16px;*/
+    background-color: #E6DDCE ;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.contenedor {
+    background-color: #EFE9DF;
+    color: #A00013;
+}
+
+footer {
+    color: #A00013;
+}
+
+p {
+    font-size: 1rem;
+    margin: 2rem auto;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+
+
+
+
+
+
+
+
+

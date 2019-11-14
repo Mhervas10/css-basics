@@ -1,0 +1,215 @@
+/***
+
+RECURSOS
+
+
+RESET
+https://cdnjs.com/libraries/meyer-reset
+
+COLORS
+colorzilla
+
+Crema oscuro: #e6ddce
+Crema: #efe9df;
+Crema claro: #f3efe8;
+Granate: #99141b;
+Granate claro: #be696d;
+
+Grises:
+#000
+#111
+#333
+#666
+#999
+#ccc
+#ddd
+#eee
+#fff
+
+grey    crema fosc 
+#fef9ff crema 
+#fef9ff crema clar 
+
+#a00013 Granate: 
+red     Granate clar
+
+grisos
+#ddd
+
+
+
+IL·LUSTRACIONS
+https://etc.usf.edu/clipart/
+
+https://www.oldbookillustrations.com/
+
+***/
+
+
+
+
+
+
+/***-------------- Estructura --------------***/
+
+header,
+nav,
+main,
+aside,
+footer {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 50px; 
+}
+.centrado {
+    text-align: center;
+}
+
+.alineado {
+    margin: 0 40px;
+}
+
+.caja {
+    /* border: 1px solid #999;  */
+    border-radius: 6px;
+    padding: 1.5rem;
+    width: 420px;
+    margin: 0px auto 20px auto; 
+    /* Valores de sombra: 
+        Desplazamiento derecha 
+        Desplazamiento bottom 
+        Desenfocado 
+        Amplada
+        Color 
+    */
+    box-shadow: 0px 0px 5px 1px #ccc;
+    background-color:#f3efe8; 
+}
+
+img {
+    mix-blend-mode: multiply;
+    width: 80%;
+}
+
+p {
+    line-height: 150%;
+}
+
+ 
+/***-------------- Tipografia --------------***/
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.6rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+p{
+    font-size: 1rem;
+    padding: 0.5rem;
+    
+}
+
+.autor {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.7rem;
+    font-weight: 600
+}
+
+.mayuscula {
+    text-transform: uppercase;
+}
+
+.small {
+    font-variant: small-caps;
+    font-size: 1.5rem;
+}
+.italic {
+    font-style: italic;
+    color: #666;
+}
+
+
+
+/***-------------- Estetica --------------***/
+
+body {
+background: grey;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+    background-color: #efe9df;
+}
+
+.autor {
+    color:  #99141b;
+   
+}
+
+.parrafo::first-letter{
+    color: #99141b;
+    font-size: 3rem;
+    float: left;
+    margin: -5px 10px -5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #99141b;
+}
+
+.foot {
+    width: 420px;
+    padding-left: 90px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3rem;
+    padding-top: 0;
+}
+    
+/* ombra de caixa / separació-horitzontal  separació-vertical desenfocament propagació color (amb comes repeteix) 
+
+
+{ box-shadow: 10px 10px 10px 10px #000000; }
+
+*/
+
+nav img{
+    display: none;
+}
+
+.pag01 nav img,
+.pag02 nav img,
+.pag03 nav img,
+.pag04 nav img
+{
+    display: inline;
+}
+
+ 
+

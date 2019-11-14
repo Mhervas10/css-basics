@@ -1,0 +1,55 @@
+
+
+/***** ESTRUCTURA *****/
+
+/* Propietat Display 
+
+per defecte son "block" els elements DIV o "Divs semàntics"
+i "inline" als elements "d'intre d'un element de text":  <span> <a> <img>
+
+*/
+
+
+
+    .esquerra { float:left; }
+
+
+    .dreta { float: right; }
+
+    main {overflow: auto;}
+/*
+
+main { 
+	display: flex;
+ }
+
+*/
+
+
+/* ESTRUCTURA sense relació amb flex box */
+
+
+body  {padding:20px;}
+
+/*
+main {overflow: hidden;}
+*/
+
+section { padding: 20px;}
+
+
+/***** TIPOGRAFIA *****/
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+
+
+/***** ESTETICA *****/
+
+main { background: LightGray;}
+
+section {
+background: orange;
+border: 1px solid #000;
+}
+ 

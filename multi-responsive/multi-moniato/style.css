@@ -1,0 +1,195 @@
+/***
+    COLORS
+    colorzilla
+
+    grey    crema fosc 
+    #fef9ff crema clar
+    #f3efe8 crema  
+
+    #a00013 Granate: 
+    red     Granate clar
+
+    grisos
+    #ddd
+
+
+
+    IL·LUSTRACIONS
+    https://etc.usf.edu/clipart/
+
+    https://www.oldbookillustrations.com/
+
+    ***/
+
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
+
+    /***-------------- Estructura --------------***/
+
+    header,
+    nav,
+    main,
+    aside,
+    footer {
+        max-width: 600px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+    }
+    
+    /***-------------- Tipografia --------------***/
+/* header */
+.div-title{
+    color:#aaa;
+    font-style: italic;
+    text-align:center;
+    font-size: 1.5rem;
+    margin:0 0 10px 0;
+}
+/* header */
+.div-subtitle{
+    font-variant-caps: small-caps;
+    text-align: center;
+    font-size: 2rem;
+    margin:0 0 20px 0;
+    
+}
+/* header */
+.h-title{
+    color:#a00013;
+    text-transform: uppercase;
+    text-align:center;
+    font-size: 4rem;
+    margin:0 0 20px 0;
+}
+
+a{
+    text-decoration:none;
+    color:#a00013;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin:0;
+}
+
+h2{
+    text-align: center;
+    margin:0 0 15px 0;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.field-notes{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-variant-caps: small-caps;
+    font-size: 1.5rem;
+}
+
+.first-letter::first-letter{
+    color:#a00013;
+    font-size: 4.5rem;
+    margin:-10px 10px 0 0;
+    float:left;
+}
+
+    /***-------------- Estetica --------------***/
+
+    body {
+        background: grey;
+    }
+
+    header,
+    nav,
+    main,
+    aside,
+    footer {
+    background:#f3efe8;
+    }
+        
+    /* ombra de caixa / separació-horitzontal  separació-vertical desenfocament propagació color (amb comes repeteix) 
+
+
+    { box-shadow: 10px 10px 10px 10px #000000; }
+
+    */
+
+
+header{
+    padding:10px 0;
+}
+
+div{
+    border:1px solid #777;
+    border-radius: 5px;
+    max-width:500px;
+    margin:0 auto 15px auto;
+    padding:30px;
+    box-shadow: 5px 5px 10px 1px #888;
+    background:#fef9ff;
+}
+
+img{
+    max-width:300px;
+    margin-left:80px;
+    margin-bottom: 10px;
+    mix-blend-mode: multiply;
+    /* position:absolute;
+    top:10px;
+    left:100px; */
+}
+
+p{
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+footer p{
+    margin:0 20px;
+}
+
+nav div p:nth-of-type(4){
+    text-align:center;
+    margin-top:20px;
+}
+/* para centrar los malditos enlaces, que aunque sean el p4 lo cuenta como 5 */
+
+nav img{
+    display:none;
+}
+
+.index nav img{
+    display:inline;
+}
+
+.page01 nav div:nth-child(1) img,
+.page02 nav div:nth-child(2) img, 
+.page03 nav div:nth-child(3) img, 
+.page04 nav div:nth-child(4) img{
+    display:inline;
+}
+
+
+nav .first-letter{
+    display:none;
+}
+
+.index nav .first-letter{
+    display:block;
+}
+
+.page01 nav div:nth-child(1) a,
+.page02 nav div:nth-child(2) a, 
+.page03 nav div:nth-child(3) a, 
+.page04 nav div:nth-child(4) a{
+    display:none;
+}
